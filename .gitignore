@@ -1,0 +1,23 @@
+# Ignore compiled class files
+*.class
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Maven target directory
+/target/
+
+# Logs
+*.log
+
+# Secret config files
+src/main/resources/hibernate-secrets.properties
+
+# Environment files
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
